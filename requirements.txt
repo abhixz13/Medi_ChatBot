@@ -1,0 +1,11 @@
+sentence-transformers==2.2.2 #We are using OS embedding model. It uses transformer library in HuggingFace hub 
+langchain 
+flask # To create python user interface
+pypdf 
+python-dotenv # Mention OpenAI and Pinecone credentials
+pinecone[grpc]
+langchain-pinecone
+langchain_community
+langchain_openai
+langchain_experimental
+-e .
